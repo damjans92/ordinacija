@@ -1244,7 +1244,7 @@ About Page
 
   .about-img,
   .about-img-svg {
-    margin-top: 5rem;
+    margin-top: 0;
     grid-column: 1 / span 5;
     margin-bottom: 0;
   }
