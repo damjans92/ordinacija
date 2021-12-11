@@ -957,6 +957,10 @@ Contact Us
   .blog-center {
     grid-template-columns: 1fr;
   }
+
+  .contact-us-center {
+    width: 100vw;
+  }
 }
 
 .contact-us-info {
