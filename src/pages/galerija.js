@@ -9,7 +9,7 @@ const Projects = () => {
     <Layout>
       <Seo title="Galerija" />
       <section className="projects-page page-pd">
-        <Title title="Galerija" />
+        <Title title="Galerija" isH1 />
         <div className="section-center" style={{ maxWidth: "1350px" }}>
           <div className="gallery">
             <Gallery />
