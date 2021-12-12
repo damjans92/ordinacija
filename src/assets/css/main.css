@@ -1233,7 +1233,12 @@ About Page
   line-height: 2;
   text-align: justify;
 }
-
+@media screen and (max-width: 640px) {
+  .about-text p {
+    line-height: 1.7;
+    text-align: left;
+  }
+}
 @media screen and (min-width: 992px) {
   .about-center {
     display: grid;

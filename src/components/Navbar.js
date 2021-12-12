@@ -12,22 +12,14 @@ const Navbar = ({ toggleSidebar, isFixed }) => {
       <div className="nav-center">
         <div className="contact-info-box top-left">
           <span className="icon-wrap">
-            <a
-              target="_blank"
-              href="https://goo.gl/maps/rV71VuZKHquzSyaPA"
-              rel="noreferrer"
-            >
-              <FaMapMarkerAlt style={{ fontSize: "1.5rem" }} />
+            <a href="tel:+381637241472" rel="noreferrer">
+              <FaPhoneAlt style={{ fontSize: "1.5rem" }} />
             </a>
           </span>
           <div className="info-desc">
             <p>
-              <a
-                target="_blank"
-                href="https://goo.gl/maps/rV71VuZKHquzSyaPA"
-                rel="noreferrer"
-              >
-                Lokacija
+              <a href="tel:+381637241472" rel="noreferrer">
+                063/72 414 72
               </a>
             </p>
           </div>
@@ -44,14 +36,22 @@ const Navbar = ({ toggleSidebar, isFixed }) => {
         </div>
         <div className="contact-info-box ml-auto top-right">
           <span className="icon-wrap">
-            <a href="tel:+381637241472" rel="noreferrer">
-              <FaPhoneAlt style={{ fontSize: "1.5rem" }} />
+            <a
+              target="_blank"
+              href="https://goo.gl/maps/rV71VuZKHquzSyaPA"
+              rel="noreferrer"
+            >
+              <FaMapMarkerAlt style={{ fontSize: "1.5rem" }} />
             </a>
           </span>
           <div className="info-desc">
             <p>
-              <a href="tel:+381637241472" rel="noreferrer">
-                063/72 414 72
+              <a
+                target="_blank"
+                href="https://goo.gl/maps/rV71VuZKHquzSyaPA"
+                rel="noreferrer"
+              >
+                Lokacija
               </a>
             </p>
           </div>
