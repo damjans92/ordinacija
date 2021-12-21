@@ -21,7 +21,9 @@ const TerapijaDonjovilicnogZgloba = () => {
               školjke, do <i>bolova i glavobolja</i>. Poseban problem imaju
               pacijenti sa poremećajem u zagrižaju, kao i oni koji imaju
               oštećenje bočnih zuba koje nastaje usled prirodnog trošenja zubnog
-              tkiva ili kao posledica karijesa.
+              tkiva ili kao posledica karijesa. Kod uznapredovalog poremećaja
+              funkcije javlja se i otežano otvaranje ili nemogućnost otvaranja
+              usta.
             </p>
             <p>
               Terapija najvećeg broja poremećaja se može izvesti vežbama, uz
