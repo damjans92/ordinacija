@@ -11,12 +11,12 @@ require("dotenv").config({
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "DrSavkovic dental office",
-    description: "DrSavkovic dental office",
+    title: "DrSavkovic Dental Office",
+    description: "DrSavkovic Dental Office",
     titleTemplate: `%s | DrSavkovic dental office`,
     keywords: `stomatologija, stomatolog, stomatoloska ordinacija, zubar, protetika, ortodoncija, endodoncija, popravka zuba, izbeljivanje zuba, medakovic, folije za zube`,
     siteUrl: `https://drsavkovic.rs`,
-    image: `/Logo.svg`,
+    image: `/Logo.jpg`,
   },
   plugins: [
     // {
