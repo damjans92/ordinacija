@@ -16,7 +16,7 @@ module.exports = {
     titleTemplate: `%s | DrSavkovic dental office`,
     keywords: `stomatologija, stomatolog, stomatoloska ordinacija, zubar, protetika, ortodoncija, endodoncija, popravka zuba, izbeljivanje zuba, medakovic, folije za zube`,
     siteUrl: `https://drsavkovic.rs`,
-    image: `/Logo.jpg`,
+    image: `/Logo_share.jpg`,
   },
   plugins: [
     // {
