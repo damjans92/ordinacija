@@ -698,6 +698,12 @@ Hero
   transform: translateX(-80%);
 }
 
+@media screen and (max-width: 1200px) {
+  .hero {
+    background-position: center;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .hero h1.category-title {
     font-size: 3.25rem;

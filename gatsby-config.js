@@ -13,10 +13,10 @@ module.exports = {
   siteMetadata: {
     title: "DrSavkovic Dental Office",
     description: "DrSavkovic Dental Office",
-    titleTemplate: `%s | DrSavkovic dental office`,
+    titleTemplate: `%s | DrSavkovic Dental Office`,
     keywords: `stomatologija, stomatolog, stomatoloska ordinacija, zubar, protetika, ortodoncija, endodoncija, popravka zuba, izbeljivanje zuba, medakovic, folije za zube`,
     siteUrl: `https://drsavkovic.rs`,
-    image: `/Logo_share.jpg`,
+    image: `/drsavkovic-share.jpg`,
   },
   plugins: [
     // {
