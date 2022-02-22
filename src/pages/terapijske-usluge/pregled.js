@@ -1,4 +1,5 @@
 import React from "react"
+import services from "../../constants/services"
 import Title from "../../components/Title"
 import Layout from "../../components/Layout"
 import Hero from "../../components/Hero"
@@ -12,6 +13,23 @@ const Pregled = () => {
       <Seo title="Stomatološki pregled" />
       <Hero heroBg={bannerPregled} title="Stomatološki pregled" />
       <section className="category-page">
+        <div className="section-center category-breadcrumbs">
+          <div>
+            <ul className="category-links">
+              {services.map((service, index) => {
+                if (service.id !== 5) {
+                  return (
+                    <li key={index}>
+                      <a href={service.url} className="category-bc-link">
+                        {service.bcTitle}
+                      </a>
+                    </li>
+                  )
+                }
+              })}
+            </ul>
+          </div>
+        </div>
         <div className="section-center category-center">
           <article className="about-text">
             <Title title="Stomatološki pregled" />

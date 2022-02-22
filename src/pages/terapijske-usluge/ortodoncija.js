@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import services from "../../constants/services"
 import Layout from "../../components/Layout"
 import Hero from "../../components/Hero"
 import Seo from "../../components/SEO"
@@ -12,6 +13,23 @@ const Ortodoncija = () => {
       <Seo title="Ortodoncija / providne folije" />
       <Hero heroBg={banner} title="Ortodoncija / providne folije" />
       <section className="category-page">
+        <div className="section-center category-breadcrumbs">
+          <div>
+            <ul className="category-links">
+              {services.map((service, index) => {
+                if (service.id !== 6) {
+                  return (
+                    <li key={index}>
+                      <a href={service.url} className="category-bc-link">
+                        {service.bcTitle}
+                      </a>
+                    </li>
+                  )
+                }
+              })}
+            </ul>
+          </div>
+        </div>
         <div className="section-center category-center">
           <article className="about-text">
             <div className="section-title">

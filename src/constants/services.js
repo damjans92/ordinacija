@@ -13,12 +13,14 @@ const services = [
     url: "/terapijske-usluge/konzervativna-stomatologija",
     icon: <img src={konzervativa} alt="konzervativa" />,
     title: <h4>Konzervativna stomatologija</h4>,
+    bcTitle: <h4>Konzervativna stomatologija</h4>,
   },
   {
     id: 2,
     url: "/terapijske-usluge/endodoncija",
     icon: <img src={endodoncija} alt="endodoncija" />,
     title: <h4>Endodoncija</h4>,
+    bcTitle: <h4>Endodoncija</h4>,
   },
   {
     id: 3,
@@ -30,24 +32,28 @@ const services = [
         Hirurgija
       </h4>
     ),
+    bcTitle: <h4>Protetika Hirurgija</h4>,
   },
   {
     id: 4,
     url: "/terapijske-usluge/izbeljivanje",
     icon: <img src={izbeljivanje} alt="izbeljivanje" />,
     title: <h4>Izbeljivanje</h4>,
+    bcTitle: <h4>Izbeljivanje</h4>,
   },
   {
     id: 5,
     url: "/terapijske-usluge/pregled",
     icon: <img src={pregled} alt="pregled" />,
     title: <h4>Pregled</h4>,
+    bcTitle: <h4>Pregled</h4>,
   },
   {
     id: 6,
     url: "/terapijske-usluge/ortodoncija",
     icon: <img src={ortodoncija} alt="ortodoncija" />,
     title: <h4>Ortodoncija</h4>,
+    bcTitle: <h4>Ortodoncija</h4>,
   },
 
   {
@@ -57,6 +63,7 @@ const services = [
     title: (
       <h4 style={{ fontSize: "1.2rem" }}>Terapija donjoviličnog zgloba</h4>
     ),
+    bcTitle: <h4>Terapija donjoviličnog zgloba</h4>,
   },
 ]
 

@@ -1121,7 +1121,6 @@ Pages
 }
 
 .about-page,
-.category-page,
 .blog-page {
   padding: 7rem 0;
 }
@@ -1152,6 +1151,28 @@ Pages
 Category Template Page
 ===============
 */
+.category-page {
+  padding: 2rem 0 7rem 0;
+}
+.category-breadcrumbs {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.category-links li {
+  display: inline-block;
+  margin-right: 1rem;
+  position: relative;
+}
+.category-links li:not(:last-child):after {
+  content: "• ";
+  position: absolute;
+  right: -10px;
+  top: -4px;
+}
+.category-bc-link h4 {
+  letter-spacing: 0.3px;
+  font-weight: normal;
+}
 .category-page p {
   margin-bottom: 3.5rem;
 }
