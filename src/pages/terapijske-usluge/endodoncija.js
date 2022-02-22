@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import services from "../../constants/services"
+import Link from "../../components/Link"
 import Layout from "../../components/Layout"
 import Hero from "../../components/Hero"
 import Seo from "../../components/SEO"
@@ -20,9 +21,14 @@ const Endodoncija = () => {
                 if (service.id !== 2) {
                   return (
                     <li key={index}>
-                      <a href={service.url} className="category-bc-link">
+                      <Link
+                        text={service.bcTitle}
+                        url={service.url}
+                        classes="category-bc-link"
+                      />
+                      {/* <a href={service.url} className="category-bc-link">
                         {service.bcTitle}
-                      </a>
+                      </a> */}
                     </li>
                   )
                 }

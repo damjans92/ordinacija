@@ -2,7 +2,7 @@ import React from "react"
 
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-const Link = ({ text, url, id, icon, isService }) => {
+const Link = ({ text, url, id, icon, isService, classes }) => {
   if (isService) {
     return (
       <AniLink
@@ -21,6 +21,7 @@ const Link = ({ text, url, id, icon, isService }) => {
   return (
     <AniLink
       activeClassName="active"
+      className={classes}
       cover
       bg="#2caeba"
       duration={0.9}
