@@ -26,9 +26,6 @@ const Endodoncija = () => {
                         url={service.url}
                         classes="category-bc-link"
                       />
-                      {/* <a href={service.url} className="category-bc-link">
-                        {service.bcTitle}
-                      </a> */}
                     </li>
                   )
                 }

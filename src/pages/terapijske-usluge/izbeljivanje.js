@@ -46,7 +46,7 @@ const Izbeljivanje = () => {
               čisti, čime se postiže belina.
             </p>
             <StaticImage
-              src="../../assets/images/Izbeljivanje.jpg"
+              src="../../assets/images/Izbeljivanje2.jpg"
               alt="izbeljivanje"
             />
           </article>
