@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div>
-        <div className="footer-links social-links">
+        {/* <div className="footer-links social-links">
           {socialLinks.map(link => {
             return (
               <a
@@ -18,7 +18,7 @@ const Footer = () => {
               </a>
             )
           })}
-        </div>
+        </div> */}
 
         <h4>
           Copyright &copy; {new Date().getFullYear()}
