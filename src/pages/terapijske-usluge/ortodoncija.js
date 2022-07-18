@@ -62,14 +62,13 @@ const Ortodoncija = () => {
                 Folije za pomeranje zuba su postale sastavni deo stomatološke
                 terapije. Njihov estetski učinak je neprevaziđen, budući da su
                 faktički neprimetne prilikom nošenja. Postoji nekoliko
-                digitalnih sistema koji se koriste, a najpopularniji među njima
-                je Invisalign® sistem koji koristi digitalni model na osnovu
-                koga softver planira terapiju. Ograničenja digitalnih sistema se
-                ogledaju u tome što je potreban <i>veliki broj</i> skupih folija
-                za relativno <i>mala pomeranja</i>. Analogna, „hibridna“ tehnika
-                izrade folija podrazumeva uzimanje nekoliko otisaka prilikom
-                terapije, kako bi se pomeranje precizno pratilo. Tip folije koji
-                se koristi u hibridnoj tehnici se menja u zavisnosti od vrste
+                digitalnih sistema koji koriste softver za planiranje terapije.
+                Ograničenja digitalnih sistema se ogledaju u tome što je
+                potreban <i>veliki broj</i> skupih folija za relativno{" "}
+                <i>mala pomeranja</i>. Analogna, „hibridna“ tehnika izrade
+                folija podrazumeva uzimanje nekoliko otisaka prilikom terapije,
+                kako bi se pomeranje precizno pratilo. Tip folije koji se
+                koristi u hibridnoj tehnici se menja u zavisnosti od vrste
                 pomeranja, a <i>broj folija</i> koje se koriste je{" "}
                 <i>znatno manji</i> nego kod digitalnih metoda, zbog bržih
                 pomeranja i preciznije izrade.
