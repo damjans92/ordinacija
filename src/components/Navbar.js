@@ -12,14 +12,14 @@ const Navbar = ({ toggleSidebar, isFixed }) => {
       <div className="nav-center">
         <div className="contact-info-box top-left">
           <span className="icon-wrap">
-            <a href="tel:+381637241472" rel="noreferrer">
+            <a href="tel:+381691986900" rel="noreferrer">
               <FaPhoneAlt style={{ fontSize: "1.5rem" }} />
             </a>
           </span>
           <div className="info-desc">
             <p>
-              <a href="tel:+381637241472" rel="noreferrer">
-                063/72 414 72
+              <a href="tel:+381691986900" rel="noreferrer">
+                069/19 869 00
               </a>
             </p>
           </div>

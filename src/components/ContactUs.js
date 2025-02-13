@@ -44,7 +44,7 @@ const ContactUs = () => {
               <br />
               <span>
                 <strong>Telefon</strong>:{" "}
-                <a href="tel:+381637241472">063/72 414 72</a>
+                <a href="tel:+381691986900">069/19 869 00</a>
               </span>
             </div>
           </div>
